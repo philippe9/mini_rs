@@ -1,0 +1,40 @@
+<div style="position: absolute;z-index: -1;height: 100%;width: 100%;">
+    <img src="../../../../assets/rose_back.jpg" alt="" class="h-100 w-100" srcset="">
+
+</div>
+
+<div class="container" style="height: 100vh;">
+    <div class="row" style="height: 100%;">
+
+        <div class="col-md-12 d-flex justify-content-center align-items-center flex-column">
+            <h4 class="text-white">Connectez vous</h4>
+
+            <div class="registered-customers card p-2">
+                <div class="section-title text-uppercase mb-40">
+                </div>
+                <form id="profileForm" (ngSubmit)="submit(parameters)" autocomplete="off" #parameters="ngForm">
+                    <div class="login-account p-30 box-shadow row">
+
+
+                        <div class="col-sm-12 col-lg-12 mb-1">
+                            <label for="email_utilisateur"> Email utilisateur *</label>
+                            <input type="text" class="form-control" name="email_utilisateur" id="email_utilisateur" placeholder=" Email utilisateur" required [(ngModel)]="user.email_utilisateur">
+
+                        </div>
+                        <div class="col-sm-12 col-lg-12 mb-1">
+                            <label for="password_client_login">Mot de passe *</label>
+                            <input type="password" class="form-control passer" name="password_user" id="password_client_login" placeholder="Mot de passe" required [(ngModel)]="user.password_user">
+
+                        </div>
+                        <div class="col-sm-12 col-lg-12">
+                            <button type="submit" class="w-100 btn btn-primary">Se
+                connecter</button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>

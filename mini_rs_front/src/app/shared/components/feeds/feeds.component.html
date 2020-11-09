@@ -1,0 +1,66 @@
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+    </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+    </div>
+    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+    </div>
+    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+    </div>
+</div>
+<hr class="w-100 left mt-2" style="background-color: #eadfdf;height: 1px;">
+
+<ul class="stepper stepper-vertical mg-0 p-0 w-100">
+
+    <li class="active">
+        <a href="#!">
+            <span class="circle" style="height: 25px;width: 25px;">
+        <img [src]="user.profil_utilisateur ? user.profil_utilisateur : '../../../../assets/rose_back.jpg' " alt="" srcset="" style="height: 25px;width: 25px;border-radius: 50%;">
+      </span>
+            <span class="label mg-0">
+        <p>First step <small style="font-weight: 300;">has posted an
+            update </small></p>
+
+        <small class="label left" style="font-weight: 100;
+              text-align: left;">9 months, 2 weeks ago</small>
+      </span>
+
+        </a>
+        <div class="step-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse cupiditate voluptate facere iusto quaerat vitae excepturi, accusantium ut aliquam repellat atque nesciunt nostrum similique. Inventore nostrum ut, nobis porro sapiente.
+            </p>
+            <img src="../../../../assets/rose_back.jpg" class="mt-1" alt="" srcset="" style="width: 100%;border-radius: 10px;">
+        </div>
+    </li>
+    <li class="active">
+        <a href="#!">
+            <span class="circle" style="height: 25px;width: 25px;">
+        <img [src]="user.profil_utilisateur ? user.profil_utilisateur : '../../../../assets/rose_back.jpg' " alt="" srcset="" style="height: 25px;width: 25px;border-radius: 50%;">
+      </span>
+            <span class="label mg-0">
+        <p>First step <small style="font-weight: 300;">has posted an
+            update </small></p>
+
+        <small class="label left" style="font-weight: 100;
+              text-align: left;">9 months, 2 weeks ago</small>
+      </span>
+
+        </a>
+        <div class="step-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse cupiditate voluptate facere iusto quaerat vitae excepturi, accusantium ut aliquam repellat atque nesciunt nostrum similique. Inventore nostrum ut, nobis porro sapiente.
+            </p>
+            <img src="../../../../assets/rose_back.jpg" class="mt-1" alt="" srcset="" style="width: 100%;border-radius: 10px;">
+        </div>
+    </li>
+
+</ul>
